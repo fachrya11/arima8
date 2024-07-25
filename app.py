@@ -4,6 +4,7 @@ import requests
 import numpy as np
 import pickle
 import os
+from statsmodels.tsa.arima.model import ARIMA
 from datetime import datetime, timedelta
 
 # Load the trained ARIMA model
